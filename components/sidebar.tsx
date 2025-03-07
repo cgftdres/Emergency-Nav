@@ -31,7 +31,7 @@ export function Sidebar({ isOpen, onSelectEmergency, selectedEmergency }: Sideba
         <div className="relative">
           <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
           <Input
-            type="search"
+            type="search something"
             placeholder="Search locations..."
             className="pl-8"
             value={searchQuery}
